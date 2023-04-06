@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display&family=Source+Serif+Pro:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 15rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 3rem;
+}
+
+.footer ul a {
+    color: #9b689c;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    .image-container {
+        background-image: url("../img/profile1.jpg");
+    }
+    
+    .header {
+        color: rgb(195, 51, 197);
+    }
+
+    .main {
+        color: rgb(74, 20, 77);
+    }
+
+    .footer ul a {
+        color: rgb(119, 82, 120);
+    }
+
+    .footer {
+        color: rgb(6, 84, 58);
+    }
+
+    .container {
+        background-color: rgb(15, 43, 66);
+        color: rgb(103, 124, 219);
+        width: 100%;
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    .image-container {
+        background-image: url("../img/profile2.jpg");
+    }
+
+    .header {
+        color: rgb(22, 155, 49);
+    }
+
+    .main {
+        color: rgb(113, 232, 143);
+    }
+
+    .footer ul a {
+        color: rgb(165, 232, 172);
+    }
+
+    .footer {
+        color: rgb(22, 107, 28);
+    }
+
+    .container {
+        background-color: rgb(79, 136, 159);
+    }
+
+    .navigation ul li {
+        color: rgb(142, 13, 162);
+        border: 2px solid rgb(163, 81, 193);
+    }
+
+}
+
+
+@media (min-width: 1024px){
+        
+    .image-container {
+        background-image: url("../img/profile3.jpg");
+    }
+
+    .header {
+        color: rgb(224, 14, 24);
+    }
+
+    .main {
+        color: rgb(151, 27, 40);
+    }
+
+    .footer ul a {
+        color: rgb(92, 5, 5);
+    }
+
+    .footer {
+        color: rgb(118, 40, 47);
+    }
+
+    .container {
+        background-color: rgb(179, 132, 143);
+    }
+
+    .navigation ul li {
+        color:rgb(226, 120, 131);
+        border: 2px solid rgb(110, 49, 51);
+    }
+        
+}
+
+
+@media (min-width: 1200px){
+
+    .image-container {
+        background-image: url("../img/profile4.jpg");
+    }
+
+    .header {
+        color: rgb(40, 15, 227);
+    }
+
+    .main {
+        color: rgb(130, 108, 197);
+    }
+
+    .footer ul a {
+        color: rgb(46, 35, 135);
+    }
+
+    .footer {
+        color: rgb(15, 8, 71);
+    }
+
+    .container {
+        background-color: rgb(151, 126, 232);
+    }
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid rgb(125, 50, 93);
+        margin-right: 3rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
